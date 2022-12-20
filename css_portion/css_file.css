@@ -1,0 +1,56 @@
+/* Comment */ 
+
+/* Format for CSS */
+/* selected tag{property: value;} */
+
+/* Affects everything with h1 */
+h1{color: red;} 
+
+/* Look up color picker for color values */
+li{color: rgb(8, 84, 1);}
+
+/* Using hex codes for color */
+p{color: #0895a8;}
+
+/* a makes it transparent or opaque 0-1 */
+h4{color: rgba(8, 84, 1, 0.2);}
+
+/* Does everything in the body; can use url for image */ 
+body{
+    background: url("https://www.freepnglogos.com/images/beach-31657.html");
+    background-repeat: repeat;} /* makes background repeat */
+
+/* everything in the div */
+div{
+    background-color: gray;
+    border-color: blue; 
+    /* border-width: thick; or number+px */
+    border-width: 10px;
+    border-style: dotted;}
+
+p{
+    color: orange;
+    }
+
+span{
+    background-color: aqua;
+    color: black;}
+
+/* To choose class use . */
+.firstdiv{color: red;}
+
+/* ids use # */
+#singledout{
+    color: green;
+    text-decoration: line-through;}
+
+/* * applies to every element and will overide everything but ids */
+*{color: black;}
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+li a{color: red;}
+
+li a[href="www.npr.org"]{color: blue;}
