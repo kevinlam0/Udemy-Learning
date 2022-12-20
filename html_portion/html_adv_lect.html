@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1"> <!-- makes a border, bigger the number = thicker border -->
+        <thead> <!-- Table Head --> <!-- Headers will be in bold -->
+            <th>Number</th> <!-- Texts for the head -->
+            <th>Color</th>
+            <th>Country</th> <!-- All on same line -->
+        </thead>
+        <tr> <!-- The rows -->
+            <td>250</td>
+            <td>Red</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>100</td> <!-- No error if there is only one column and doesnt fill -->
+            <td>Blue</td>
+            <td>France</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <h1>Log in</h1>
+        <h2>Please Input your Email and Passwords</h2>
+        <!-- Email type ensures its an email, name calls it to another file, value is texts displayed before input -->
+        <input type="email" name="useremail" value="Email here"> 
+        <input type="password" name="password" value=""> <!-- Hidden texts when typing in -->
+        <!-- Submit input -->
+        <input type="submit" name="" value="Submit">
+        <!-- Color type input -->
+        <input type="color">
+        <!-- Text goes here -->
+        <input type="text">
+    </form>
+    
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actions from Forms</title>
+</head>
+<body>
+
+    <!-- Action takes us to a website -->
+    <form action="http://www.facebook.com" method="get">
+        <p>Enter Email:</p>
+        <input type="email" name="useremail">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="">
+        <!-- Labeling an input, putting it on the same line -->
+        <label>
+            Enter Text:
+            <input type="text" name="" value="block1">
+        </label>
+    </form>
+
+    <!-- Better way of doing label -->
+    <label for="userinput">Enter Input:</label>
+    <!-- Placeholder to make that grey text that erases when an in put is put in -->
+    <input id="userinput" type="text" name="" placeholder="Hello"> <!-- Match id with for -->
+    <!-- Makes input required -->
+    <input type="text" placeholder="Required" required>
+    <input type="submit" name="" value="Submit">
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection</title>
+</head>
+<body>
+    <h2>Hotel Feedback Form</h2>
+    <form method="get">
+
+        <!-- Radio input -->
+        <h3>Are you from inside the US or outside</h3>
+
+        <label for="inus">Inside:</label>
+        <input id="inus" type="radio" name="loc" value="inside"> <!-- By making both with the same name, user can only choose one, because name can only be assigned to one thing -->
+
+        <label for="outus">Outside: </label>
+        <input type="radio" id="outus" name="loc" value="outside">
+
+        <!-- Dropdown menu input -->
+        <h2>How was your service?</h2>
+
+        <select name="stars" id="">
+            <option value="Great">3</option> <!-- Value is what will be assigned to the name -->
+            <option value="Okay">2</option> <!-- the characters in between tags is what will display to the users -->
+            <option value="Bad">1</option>
+
+        </select>
+
+        <!-- Text box for user input -->
+        <h2>Any other feedback?</h2>
+        <textarea name="mytext" id="" cols="80" rows="10"></textarea> 
+        
+        <input type="submit" value="Submit">
+    
+    </form>
+</body>
+</html>
