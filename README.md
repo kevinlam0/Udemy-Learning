@@ -1,2 +1,3 @@
 # Udemy-Learning
-Repository for completing a Udemy Bootcamp
+
+Keeping track of progress of Udemy Python and Django Full Stack Web Developer Bootcamp
