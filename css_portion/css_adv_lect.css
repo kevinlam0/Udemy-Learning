@@ -1,0 +1,41 @@
+/* Font Properties */
+/* Windows and Macs do not both have all the same font-families */
+
+h1{
+    font-family: "Arial";
+}
+
+p{
+    font-family: monospace;
+}
+
+body{
+    font-size: 20px; 
+} /* this sets the default ratio to 20px */
+
+#two{font-size: 1.0em;} /*ratio of the default, 2x20px */
+
+p{font-style: italic; font-weight: bold;}
+
+h1{text-align: center;}
+
+/* default font */
+/* 1em = 16px 
+2em = 32px  */
+
+/* takes up a percentage of the screen (25%) */
+#top{
+    border: 4px solid blue;
+    width: 25%;
+    /* make text center of box*/
+    text-align: center;
+    /*margin: top right bottom left*/
+    /*auto makes it equal on both sides*/
+    margin: auto;
+}
+
+#bottom{border: 4px solid red;
+        width: 50%;
+        /* padding is space betwene text and border */
+        padding: 200px;
+        text-align: center;}

@@ -1,0 +1,27 @@
+h1{font-family: 'Times New Roman', Times, serif;
+text-align: center;
+margin: auto;}
+.blocks{
+    
+    margin: auto;
+}
+
+td{
+width: 150px;
+height: 300px;
+border: 6px solid white;}
+
+
+#a{background-color: #ffcdb2;
+    }
+
+#b{background-color: #ffb4a2;}
+
+#c{background-color: #e5989b;
+    }
+
+#d{background-color: #b5838d;
+    }
+
+#e{background-color: #6d6875;
+    }
