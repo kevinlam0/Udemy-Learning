@@ -1,0 +1,380 @@
+<!-- Buttons -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- No Container -->
+    <h1>Hello, world!</h1>
+
+    <!-- With Container -->
+    <div class="container">
+      <h1>Hello World!</h1>
+      <button class="btn btn-success btn-lg active" type="button" name="button">Button</button>
+      <button class="btn " disabled type="button" name="button">Disabled Button</button>
+    </div>
+
+    <!-- JumboTron -->
+    <div class="container">
+
+
+    <div class="jumbotron">
+      <!-- <div class="container"> -->
+
+
+  <h1 class="display-3">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-2">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg " href="#" role="button">Learn more</a>
+  </p>
+<!-- </div> -->
+</div>
+</div>
+
+  </body>
+</html>
+
+<!-- Forms -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="container">
+
+<!--
+      The <fieldset> tag is used to group related elements in a form.
+
+      The <fieldset> tag draws a box around the related elements.
+ -->
+
+
+  <form>
+
+    <!-- EMAIL SUBMISSION -->
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <!-- PASSWORD -->
+
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+  <!-- DROPDOWN SELECT -->
+
+
+  <div class="form-group">
+    <label for="exampleSelect1">Example select</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+
+  <!-- MULTIPLE SELECT OPTIONS -->
+
+  <div class="form-group">
+    <label for="exampleSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+
+  <!-- TEXT AREA -->
+
+  <div class="form-group">
+    <label for="exampleTextarea">Example textarea</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+
+
+  <!-- FILE UPLOAD INPUT -->
+
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+  </div>
+
+  <!-- RADIO BUTTONS -->
+
+  <fieldset class="form-group">
+    <legend>Radio buttons</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+
+
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+
+
+
+
+    <div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+
+
+  </fieldset>
+
+
+  <!-- CHECK BUTTON -->
+
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+
+</div>
+
+  </body>
+</html>
+
+<!-- Navbars -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+    
+  	<!-- DOCUMENTATION NAVBAR -->
+
+  	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+
+      <!-- Inside of a Container -->
+    <div class="container-fluid">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- This is the actual code that create the "hamburger icon" -->
+      <!-- The data-target grabs ids to put into the icon -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+          <!--  Code for the hamburger icon-->
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="http://www.google.com">Go to Google</a></li>
+              <li><a href="#">Something else here</a></li>
+
+              <!-- Use this to separate a new link -->
+
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- SEARCH BAR -->
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+
+        <!-- Stuff on the Right -->
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <!-- OTHER STUFF ON THE PAGE -->
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Hello</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+  </div>
+  <div class="container">
+    <h2>More Stuff</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </div>
+
+
+
+  <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
+
+  <script
+  src="http://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
+
+<!-- Grid -->
+<!-- https://getbootstrap.com/docs/3.4/examples/grid/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grids</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style media="screen">
+    .boxy{
+      background: #b3ddff;
+      border: 2px solid black;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- For Alpha Bootstrap 4 check out this link:
+    https://v4-alpha.getbootstrap.com/layout/grid/ -->
+
+    <!-- You can use Cmd+Shift+L for multi-line writing -->
+
+    <!-- There are 12 columns that you can use -->
+    <!-- Must be inside of a container with a class='row' -->
+    <!-- Grid class format is col-ScreenSize-colnum -->
+
+    <!-- Example 1 -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-4 boxy" >COL Large 4</div>
+        <div class="col-lg-4 boxy" >COL Large 4</div>
+        <div class="col-lg-4 boxy" >COL Large 4</div>
+      </div>
+
+    </div> -->
+
+    <!-- Example 2 -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-6 boxy" >COL Medium 6</div>
+        <div class="col-md-6 boxy" >COL Medium 6</div>
+      </div>
+
+    </div> -->
+
+
+    <!-- Example 3 -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-xs-6 boxy" >COL Extra Small 6</div>
+        <div class="col-xs-6 boxy" >COL Extra Small 6</div>
+      </div>
+
+    </div> -->
+
+    <!-- Example 4 -->
+    <!-- You can add in size classes to account for behavior at different sizes -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 boxy" >ONE</div>
+        <div class="col-lg-3 col-sm-6 boxy" >TWO</div>
+        <div class="col-lg-3 col-sm-6 boxy" >THREE</div>
+        <div class="col-lg-3 col-sm-6 boxy" >FOUR</div>
+      </div>
+
+    </div> -->
+
+    <!-- Example 5 -->
+    <!-- Nested Rows allow you to further divide the grid beyond 12 units -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-6 boxy" >
+          <div class="row">
+            <div class="col-lg-6 boxy">NEST ONE</div>
+            <div class="col-lg-6 boxy">NEST TWO  </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 boxy" >TOP LEVEL</div>
+      </div>
+
+    </div> -->
+
+
+  </body>
+</html>
