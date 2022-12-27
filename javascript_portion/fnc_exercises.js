@@ -138,3 +138,4 @@ console.log(difference);
 function makeBricks(small, big, goal){
   return goal <= small + big*5 && goal%5 <= small 
 }
+
