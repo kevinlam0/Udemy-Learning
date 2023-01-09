@@ -1,4 +1,5 @@
-.tbl{align-self: center;
+.tbl{margin-left: auto;
+    margin-right: auto;
 margin-top: 10px;}
 td{height: 150px;
 width: 150px;
@@ -7,3 +8,5 @@ border: 5px solid pink;
 font-size: 100px;
 color: red;
 }
+h1{text-align: center;}
+.container{text-align: center;}
